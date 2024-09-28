@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="ImpomotorsApp">
+    <head>
+        <title>Impomotors Argentina S.A.</title>
+        <meta name="description" content="Nuestra empresa realiza la importación y exportación de autopartes desde el continente asiático y hacia nuestros países vecinos que forman el MERCOSUR.">
+        <meta name="keywords" content="Impomotors S.A., Impomotors, Impomotors repuestos, Impomotors autopartes, Impomotors argentina, Impomotors Paraná, Impomotors entre ríos, Impomotors importación, impomotors importación y exportación, autopartes impomotors, repuestos impomotors, argentina impomotors, parana impomotors, impomotors Paraná, entre ríos impomotors, entre rios impomotors, impomotors entre ríos, importación impomotors, importación y exportación impomotors.">
+        <meta charset="utf-8">
+        <meta name="author" content="AlienSoftware - Diseño web.">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <!-- meta robots -->
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="googlebot" content="noindex, nofollow">
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico">
+        <!-- Load Core CSS 
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/core/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/core/animate.min.css">
+        <!-- Load Main CSS 
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/main/main.css">
+        <link rel="stylesheet" href="assets/css/main/setting.css">
+        <link rel="stylesheet" href="assets/css/main/hover.css">
+        <!-- Load Magnific Popup CSS 
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/magnific/magic.min.css">        
+        <link rel="stylesheet" href="assets/css/magnific/magnific-popup.css">              
+        <link rel="stylesheet" href="assets/css/magnific/magnific-popup-zoom-gallery.css">
+        <!-- Load OWL Carousel CSS 
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.css">
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.transitions.css">
+        <!-- Load Color CSS - Please uncomment to apply the color.
+        ===================================== -->
+        <link rel="stylesheet" href="assets/css/color/pasific.css">
+        <!-- Load Fontbase Icons - Please Uncomment to use linea icons
+        ===================================== 
+        -->      
+        <link rel="stylesheet" href="assets/css/icon/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/icon/et-line-font.css">
+        <!-- Load AngularJS
+        =====================================-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+        <script src="https://code.angularjs.org/1.5.5/angular-animate.min.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.5.0/angular-route.js"></script>
+        <script src="assets/js/angularjs/module.js"></script>
+        <script src="assets/js/angularjs/controller.js"></script>
+        <script src="assets/js/angularjs/routeConfig.js"></script>
+    </head>
+    <body class="Scrolltop" id="topPage" data-spy="scroll" data-target=".navbar" data-offset="100" ng-controller="ImpomotorsController">
+        <!-- Page Loader
+        ===================================== -->
+        <div class="loading">
+          <div class="loader">
+            <h2 class="loading-text cd-headline clip is-full-width"> <span class="cd-words-wrapper"> <img src="assets/img/loading/gif.gif" alt="loading impomotors"></span> </h2>
+            <div class="loading-image"><img src="assets/img/loading/logo.png" alt="loading impomotors"></div>
+          </div>
+        </div>
+        <a href="#page-top" class="go-to-top">
+            <i class="fa fa-long-arrow-up"></i>
+        </a>
+        <!-- Navigation Area
+        ===================================== -->
+        <nav class="navbar navbar-pasific navbar-mp navbar-standart megamenu navbar-fixed-top" style="border-bottom:1px solid #fff;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">
+                        <img src="assets\img\logo\logo-default.png" alt="logo">
+                    </a>
+                </div>
+        
+                <div class="navbar-collapse collapse navbar-main-collapse font-open-sans">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Inicio</a></li>    
+                        <li><a href="index.html#welcome">Nosotros</a></li> 
+                        <li><a href="index.html#services">Servicios</a></li>                        
+                        <li class="dropdown megamenu-fw has-dropdown-menu"><a data-toggle="dropdown" class="dropdown-toggle color-light">Productos </a>
+                            <ul class="dropdown-menu fullwidth">
+                                <li class="megamenu-content withoutdesc">
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <h3 class="title text-uppercase font-open-sans color-dark">BUSCAR POR MARCA</h3>
+                                            <ul>
+                                                <li><a href="productos.html#/productos">TODAS</a></li>
+                                                <li><a href="productos.html#/daichi">DAICHI</a></li>
+                                                <li><a href="productos.html#/ekko-rubber">EKKO RUBBER</a></li>
+                                                <li><a href="productos.html#/exedy">EXEDY</a></li>
+                                                <li><a href="productos.html#/first">FIRST</a></li>
+                                                <li><a href="productos.html#/hasaki">HASAKI</a></li>
+                                                <li><a href="productos.html#/ir">IR</a></li>
+                                                <li><a href="productos.html#/iq">IQ</a></li>
+                                                <li><a href="productos.html#/kyb">KYB</a></li>
+                                                <li><a href="productos.html#/nitoyo">NITOYO</a></li>
+                                                <li><a href="productos.html#/rbi">RBI</a></li>
+                                                <li><a href="productos.html#/safety-brand">SAFETY BRAND<!-- <img src="assets/img/other/new.gif" alt="new pages" class="ml5"> --></a></li>
+                                                <li><a href="productos.html#/seco">SECO</a></li>
+                                                <li><a href="productos.html#/shibumi">SHIBUMI</a></li>
+                                                <li><a href="productos.html#/takama">TAKAMA</a></li>
+                                                <li><a href="productos.html#/unicorn">UNICORN</a></li>
+                                                <li><a href="productos.html#/555">555</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <h3 class="title text-uppercase font-open-sans color-dark">BUSCAR POR CATEGORÍA</h3>
+                                            <ul>
+                                                <li><a href="productos.html#/productos">TODAS</a></li>
+                                                <li><a href="productos.html#/amortiguadores-estabilizadores-de-direccion">AMORTIGUADORES/ESTABILIZADORES DE DIRECCIÓN</a></li>
+                                                <li><a href="productos.html#/axiales-de-direccion">AXIALES DE DIRECCIÓN</a></li>
+                                                <li><a href="productos.html#/barras-de-torsion">BARRAS DE TORSIÓN</a></li>
+                                                <li><a href="productos.html#/barras-centrales">BARRAS CENTRALES</a></li>
+                                                <li><a href="productos.html#/bieletas">BIELETAS DE SUSPENSIÓN</a></li>
+                                                <li><a href="productos.html#/bombas-de-direccion">BOMBA DE DIRECCIÓN</a></li>
+                                                <li><a href="productos.html#/bomba-de-embrague">BOMBA DE EMBRAGUE</a></li>
+                                                <li><a href="productos.html#/bomba-de-freno">BOMBA DE FRENO</a></li>
+                                                <li><a href="productos.html#/bombin-embrague">BOMBIN EMBRAGUE</a></li>
+                                                <li><a href="productos.html#/brazo-auxiliar">BRAZO AUXILIAR</a></li>
+                                                <li><a href="productos.html#/brazo-pitman">BRAZO PITMAN</a></li>
+                                                <li><a href="productos.html#/bujes-de-suspension">BUJES DE SUSPENSIÓN</a></li>
+                                                <li><a href="productos.html#/cable-de-embrague">CABLE DE EMBRAGUE</a></li>
+                                                <li><a href="productos.html#/cable-de-freno-de-mano">CABLE DE FRENO DE MANO</a></li>
+                                                <li><a href="productos.html#/cazoletas-de-amortiguador">CAZOLETAS DE AMORTIGUADOR</a></li>
+                                                <li><a href="productos.html#/cilindro-de-freno">CILINDRO DE FRENO</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <h3 class="title">&nbsp;</h3>
+                                            <ul>
+                                                <li><a href="productos.html#/cubo-magico">CUBO MÁGICO</a></li>
+                                                <li><a href="productos.html#/crapodina-de-embrague">CRAPODINA DE EMBRAGUE</a></li>
+                                                <li><a href="productos.html#/cremalleras-de-direccion">CREMALLERAS DE DIRECCIÓN</a></li>
+                                                <li><a href="productos.html#/crucetas-de-cardan">CRUCETAS DE CARDAN</a></li>
+                                                <li><a href="productos.html#/ejes-de-parrilla">EJES DE PARRILLA</a></li>
+                                                <li><a href="productos.html#/espirales">ESPIRALES</a></li>
+                                                <li><a href="productos.html#/extremos-de-direccion">EXTREMOS DE DIRECCIÓN</a></li>
+                                                <li><a href="productos.html#/fuelles-de-cremalleras">FUELLES DE CREMALLERAS</a></li>
+                                                <li><a href="productos.html#/fuelles-de-homocineticas">FUELLES DE HOMOCINÉTICAS</a></li>
+                                                <li><a href="productos.html#/homocineticas">HOMOCINÉTICAS</a></li>
+                                                <li><a href="productos.html#/horquilla-de-embrague">HORQUILLA DE EMBRAGUE</a></li>
+                                                <li><a href="productos.html#/kit-de-embrague">KIT DE EMBRAGUE</a></li>
+                                                <li><a href="productos.html#/pastillas-de-freno-y-disco">PASTILLAS DE FRENO Y DISCO</a></li>
+                                                <li><a href="productos.html#/parrillas-de-suspension">PARRILLAS DE SUSPENSIÓN</a></li>
+                                                <li><a href="productos.html#/reguladores-de-barra">REGULADORES DE BARRA</a></li>
+                                                <li><a href="productos.html#/reparacion-bomba-y-bombin-embrague">REPARACIÓN BOMBA Y BOMBIN EMBRAGUE</a></li>
+                                                <li><a href="productos.html#/reparacion-de-caliper">REPARACIÓN DE CALIPER</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <h3 class="title">&nbsp;</h3>
+                                            <ul>
+                                                <li><a href="productos.html#/rotulas-de-suspension">RÓTULAS DE SUSPENSIÓN</a></li>
+                                                <li><a href="productos.html#/semiejes">SEMIEJES</a></li>
+                                                <li><a href="productos.html#/soportes-de-motor-y-caja">SOPORTES DE MOTOR Y CAJA</a></li>
+                                                <li><a href="productos.html#/topes-de-suspension">TOPES DE SUSPENSIÓN</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>                                 
+                        <li><a href="index.html#contact">Contacto</a></li>
+                        <li><a href="https://extranet.impomotors.com.ar" target="_blank"><i class="fa fa-lock fa-fw"></i> Ingresar</a></li>
+                        <li><a href="" data-toggle="modal" data-target="#loginModal"><i class="fa fa-pencil fa-fw"></i> Registrarse</a></li>                                                 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Login Modal Dialog Box
+        ===================================== -->
+        <div id="loginModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- modal content start -->
+                <div class="modal-content">
+                    <div class="modal-header bg-gray">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h5 class="modal-title text-center"><i class="fa fa-pencil fa-fw"></i> Registrarse</h5>
+                    </div>
+                    <div class="modal-body pt25">
+                        <div class="text-center">
+                            <span class="color-dark">Completa el siguiente formulario</span><br>
+                        </div>
+                        <form name="FormRegistrarse" id="FormRegistrarse" class="form-horizontal mt25 ml50" method="POST">
+                          <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Nombre</label>
+                            <div class="col-sm-8">
+                              <input type="text" class="form-control" placeholder="Nombre" name="name" id="registerName">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Apellido</label>
+                            <div class="col-sm-8">
+                              <input type="text" class="form-control" placeholder="Apellido" name="lastname" id="registerLastName">
+                            </div>
+                          </div>                                                  
+                          <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-8">
+                              <input type="email" class="form-control" placeholder="Email" name="email" id="registerEmail">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Teléfono</label>
+                            <div class="col-sm-8">
+                              <input type="text" class="form-control" placeholder="Teléfono" name="phone" id="registerPhone">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Empresa</label>
+                            <div class="col-sm-8">
+                              <input type="text" class="form-control" placeholder="Empresa" name="company" id="registerCompany">
+                            </div>
+                          </div>                                                     
+                          <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">Contraseña</label>
+                            <div class="col-sm-8">
+                              <input type="password" class="form-control" placeholder="Contraseña" name="password" id="registerPassword">
+                            </div>
+                          </div>                         
+                          <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-8">
+                              <button id="btn-registrarse" class="button button-pasific hover-ripple-out button-block">Registrarse</button>
+                            </div>
+                          </div>
+                            <div id="EnviandoMensaje" class="statusMessage sending-message"><p>Enviando tu solicitud, por favor espera un momento..</p></div>
+                            <div id="MensajeEnviado" class="statusMessage success-message"><p>Solicitud enviada! En las próximas horas podrás acceder a los productos.</p></div>
+                            <div id="failureMessage" class="statusMessage failure-message"><p>Hubo un problema, intentalo nuevamente.</p></div>
+                            <div id="MensajeIncompleto" class="statusMessage failure-message"><p>Por favor complete todos los campos.</p></div>                          
+                        </form>
+                        <div>*Todos los campos son obligatorios</div>
+                    </div>
+                </div>
+                <!-- modal content end -->
+            </div>
+        </div>   
+        <!-- Subheader Area
+        ===================================== -->
+        <header class="bg-grad-day-tripper mt70">
+
+            <div class="container">
+                <div class="row mt20 mb30">
+                    <div class="col-md-6 text-left col-xs-12">
+                        <h3 class="color-light text-uppercase">Impomotors Argentina S.A.<small class="color-light alpha7">Productos</small></h3>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        
+        
+        <!-- Shop Area
+        ===================================== -->
+        <section id="shop" class="bg-light pt25">
+            <div class="container">
+                
+                <div class="row">
+
+                    <div class="col-md-8 col-xs-12 pull-right">
+
+                        <div class="row">
+
+                            <div ng-view class="fade"></div>
+
+                        </div>  
+
+                    </div>                    
+                    
+                    <div id="sidebar" class="col-md-4 col-xs-12 mt25 pull-left">  
+
+                        <div class="form-group box-one" ng-show="showPageHero">
+                            <input type="text" class="form-control" id="searchshop" ng-model="productSearch" placeholder="Buscar producto">
+                        </div>                             
+                                                                        
+                    <!-- Categorias
+                    ===================================== -->
+                    <div class="pr25 pl25 clearfix">
+                        <h5 class="mt25">
+                            Buscar por Categorías
+                            <span class="heading-divider mt10"></span>
+                        </h5>                            
+                        <ul class="shop-sidebar pl25">
+                            <li><a ng-click="scrollTop()" href="productos.html#/productos">Todas<span class="badge badge-pasific pull-right">{{products.length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/amortiguadores-estabilizadores-de-direccion">Amort/Estabilizadores de dirección<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Amortiguadores y estabilizadores de dirección'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/axiales-de-direccion">Axiales de dirección<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Axiales de dirección'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/barras-de-torsion">Barras de torsión<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Barras de torsión'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/barras-centrales">Barras centrales<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Barras centrales'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/bieletas">Bieletas de suspensión<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Bieletas'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/bombas-de-direccion">Bombas de dirección<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Bombas de dirección'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/bomba-de-freno">Bomba de freno<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Bomba de freno'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/bombas-de-embrague">Bombas de embrague<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Bombas de embrague'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/brazo-auxiliar">Brazo auxiliar<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Brazo auxiliar'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/brazo-pitman">Brazo pitman<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Brazo pitman'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/bujes-de-suspension">Bujes de suspensión<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Bujes de suspensión'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/cable-de-freno-de-mano">Cable de freno de mano<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Cable de freno de mano'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/cazoletas-de-amortiguador">Cazoletas de amortiguador<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Cazoletas de amortiguador'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/cilindro-de-freno">Cilindro de freno<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Cilindro de freno'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/cremalleras-de-direccion">Cremalleras de dirección<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Cremalleras de dirección'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/ejes-de-parrilla">Ejes de parrilla<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Ejes de parrilla'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/espirales">Espirales<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Espirales'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/extremos-de-direccion">Extremos de dirección<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Extremos de dirección'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/fuelles-de-cremalleras">Fuelles de cremalleras<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Fuelles de cremalleras'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/fuelles-de-homocineticas">Fuelles de homocinéticas<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Fuelles de homocinéticas'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/homocineticas">Homocinéticas<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Homocinéticas'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/parrillas-de-suspension">Parrillas de suspensión<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Parrillas de suspensión'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/pastillas-de-freno-y-disco">Pastillas de freno y disco<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Pastillas de freno y disco'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/reguladores-de-barra">Reguladores de barra<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Reguladores de barra'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/rotulas-de-suspension">Rótulas de suspensión<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Rótulas de suspensión'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/semiejes">Semiejes<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Semiejes'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/soportes-de-motor-y-caja">Soportes de motor y caja<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Soportes de motor y caja'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/topes-de-suspension">Topes de suspensión<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Topes de suspensión'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/bombin-embrague">Bombin embrague<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Bombin embrague'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/cable-de-embrague">Cable de embrague<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Cable de embrague'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/crapodina-de-embrague">Crapodina de embrague<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Crapodina de embrague'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/crucetas-de-cardan">Crucetas de cardan<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Crucetas de cardan'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/cubo-magico">Cubo mágico<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Cubo mágico'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/horquilla-de-embrague">Horquilla de embrague<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Horquilla de embrague'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/kit-de-embrague">Kit de embrague<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Kit de embrague'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/reparacion-bomba-y-bombin-embrague">Reparación bomba y bombin embrague<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Reparación Bomba y bombin de embrague'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/reparacion-de-caliper">Reparación de caliper<span class="badge badge-pasific pull-right">{{(products | filter: {category:'Reparación de caliper'}).length}}</span></a></li>
+                        </ul>
+                       
+                    </div>
+
+                    <!-- Marcas
+                    ===================================== -->
+                    <div class="pr25 pl25 clearfix">
+                        <h5 class="mt25">
+                            Buscar por Marcas
+                            <span class="heading-divider mt10"></span>
+                        </h5>                            
+                        <ul class="shop-sidebar pl25">
+                            <li><a ng-click="scrollTop()" href="productos.html#/productos">TODAS<span class="badge badge-pasific pull-right">{{products.length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/daichi">DAICHI<span class="badge badge-pasific pull-right">{{(products | filter: {madeBy:'DAICHI'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/ekko-rubber">EKKO RUBBER<span class="badge badge-pasific pull-right">{{(products | filter: {madeBy:'EKKO RUBBER'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/exedy">EXEDY<span class="badge badge-pasific pull-right">{{(products | filter: {madeBy:'EXEDY'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/first">FIRST<span class="badge badge-pasific pull-right">{{(products | filter: {madeBy:'FIRST'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/hasaki">HASAKI<span class="badge badge-pasific pull-right">{{(products| filter: {madeBy:'HASAKI'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/ir">IR<span class="badge badge-pasific pull-right">{{(products | filter: {madeBy:'IR'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/iq">IQ<span class="badge badge-pasific pull-right">{{(products | filter: {madeBy:'IQ'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/kyb">KYB<span class="badge badge-pasific pull-right">{{(products| filter: {madeBy:'KYB'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/nitoyo">NITOYO<span class="badge badge-pasific pull-right">{{(products | filter: {madeBy:'NITOYO'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/obk">OBK<span class="badge badge-pasific pull-right">{{(products | filter: {madeBy:'OBK'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/rbi">RBI<span class="badge badge-pasific pull-right">{{(products | filter: {madeBy:'RBI'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/safety-brand">SAFETY BRAND<span class="badge badge-pasific pull-right">{{(products | filter: {madeBy:'SAFETY BRAND'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/seco">SECO<span class="badge badge-pasific pull-right">{{(products | filter: {madeBy:'SECO'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/shibumi">SHIBUMI<span class="badge badge-pasific pull-right">{{(products | filter: {madeBy:'SHIBUMI'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/takama">TAKAMA<span class="badge badge-pasific pull-right">{{(products | filter: {madeBy:'TAKAMA'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/unicorn">UNICORN<span class="badge badge-pasific pull-right">{{(products | filter: {madeBy:'UNICORN'}).length}}</span></a></li>
+                            <li><a ng-click="scrollTop()" href="productos.html#/555">555<span class="badge badge-pasific pull-right">{{(products | filter: {madeBy:'555'}).length}}</span></a></li>
+
+                        </ul>
+                       
+                    </div>                             
+                            
+                        <!-- Popular Products
+                        ===================================== -->
+                        <div class="pr25 pl25 clearfix">
+                            <h5 class="mt25">
+                                Productos más vendidos
+                                <span class="heading-divider mt10"></span>
+                            </h5>
+                            <div class="shop-sidebar-cart">
+                                <div class="sidebar-cart-container" ng-repeat="product in products.bestSellers">
+                                    <a href="productos.html#/detalles" ng-click="ShowDetails(product)">
+                                        <img ng-src="{{product.urlImg}}" style="height: 75px;" alt="" class="img-responsive pull-left">
+                                        <h6>{{product.name}}</h6>
+                                        <span class="sidebar-cart-remove">
+                                            <i class="fa fa-star text-orange"></i>
+                                            <i class="fa fa-star text-orange"></i>
+                                            <i class="fa fa-star text-orange"></i>
+                                            <i class="fa fa-star text-orange"></i>
+                                            <i class="fa fa-star-half-o text-orange"></i>
+                                        </span>
+                                    </a>
+                                </div>                                                  
+                            </div>
+                        </div>
+                             
+                    </div> 
+                    
+                </div> 
+                
+            </div>
+
+        </section>
+                
+        
+        <!-- Shopping Method
+        ===================================== -->
+        <section id="shop-info" class="bg-grad-day-tripper">
+            <div class="container">                
+                <div class="row pt50 pb30">
+                    
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="content-box content-box-center">                        
+                            <img src="assets\img\flat-icon\inspection.svg" alt="svg icon" class="img-responsive icon-svg img-center">
+                            <h5 class="color-light">Productos de calidad</h5>               
+                            <p class="color-light alpha7">Se caracterizan por tener mayor calidad y durabilidad que responde a la máxima exigencia.</p>
+                      
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="content-box content-box-center">                        
+                            <img src="assets\img\flat-icon\approval.svg" alt="svg icon" class="img-responsive icon-svg img-center">
+                            <h5 class="color-light">Productos certificados</h5>               
+                            <p class="color-light alpha7">Regulados en Argentina por organismos como IRAM, INTI e Internacionalmente por organizamos como UKAS, ASQ.</p>
+                      
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="content-box content-box-center">                        
+                            <img src="assets\img\flat-icon\diploma_2.svg" alt="svg icon" class="img-responsive icon-svg img-center">
+                            <h5 class="color-light">Garantía ante defectos de fábrica</h5>               
+                            <p class="color-light alpha7">Ofrecemos garantía por todo lo que comercializamos, damos una respuesta rápida ante cualquier reclamo. ¡Estamos para ayudarlo!</p>
+                      
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="content-box content-box-center">                        
+                            <img src="assets\img\flat-icon\assistant.svg" alt="svg icon" class="img-responsive icon-svg img-center">
+                            <h5 class="color-light">Asesoriamiento personalizado</h5>               
+                            <p class="color-light alpha7">Impomotors Argentina S.A. cuenta con personal idóneo en cada área que lo ayudará ante cualquier duda.</p>
+                      
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+         
+        
+        <!-- footer Area
+        ===================================== -->
+        <div id="footer" class="footer-two bg-light pt50">
+            <div class="container-fluid bb-solid-1">
+                <div class="container pb35">
+                    <div class="row">
+                        <!-- footer about start -->
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <h6 class="font-montserrat text-uppercase color-dark">Nuestro compromiso</h6>
+                            <p>Abastecer al mercado productos de primera calidad para conservar la originalidad de su vehículo.</p>
+                        </div>
+                        <!-- footer about end -->
+                        <!-- footer menu one start -->
+                        <div class="col-md-3 col col-sm-3 col-xs-4">
+                            <h6 class="font-montserrat text-uppercase color-dark">Contáctanos</h6>
+                            <ul class="no-icon-list">
+                                <li><a>Impomotors Argentina S.A.</a></li>
+                                <li><a>0810-777-4272</a></li>
+                                <li><a>ventas@impomotors.com.ar</a></li>
+                            </ul>
+                        </div>
+                        <!-- footer menu one end -->
+                        <!-- footer social icons start -->
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <h6 class="font-montserrat text-uppercase color-dark">Redes sociales</h6>
+                            <div class="social social-two">
+                                <a target="_blank" href="https://www.facebook.com/Impomotors-267061640071751/timeline/"><i class="fa fa-facebook color-primary"></i></a>
+                                <a target="_blank" href="https://twitter.com/Impomotors"><i class="fa fa-twitter color-blue"></i></a>                                
+                            </div>
+                        </div>
+                        <!-- footer social icons end -->
+                        <!-- footer social icons start -->
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <h6 class="font-montserrat text-uppercase color-dark">Data Fiscal</h6>
+                            <div class="social social-three">
+                                <a target="_blank" href="https://servicios1.afip.gov.ar/clavefiscal/qr/response.aspx?qr=qBln3A7opcRb8xC0ZQ8npg,,"><img class="img-responsive" src="assets/img/other/data-fiscal.jpg"></a>                   
+                            </div>
+                        </div>
+                        <!-- footer social icons end -->                        
+                    </div><!-- row end -->
+                </div><!-- container end -->
+            </div><!-- container-fluid end -->
+            <div class="container-fluid pt20">
+                <div class="container">
+                    <div class="row">
+                        <!-- copyright start -->
+                        <div class="col-md-6 col-sm-6 col-xs-6 pull-left">
+                            <p>Copyright &copy;2016 <a>Impomotors Argentina S.A.</a></p>
+                        </div>
+                        <!-- copyright end -->
+                        <!-- footer bottom start -->
+                        <div class="col-md-6 col-sm-6 col-xs-6 pull-right align-right">
+                            <p>Diseñado por <a target="_blank" href="http://alien-software.com/">AlienSoftware</a></p>
+                        </div>
+                        <!-- footer bottom end -->
+                    </div><!-- row end -->
+                </div><!-- container end -->
+            </div><!-- container-fluid end -->
+        </div><!-- footer end -->
+        
+
+        <!-- JQuery Core
+        =====================================-->
+        <script src="assets\js\core\jquery.min.js"></script>
+        <script src="assets\js\core\bootstrap.min.js"></script>
+        
+        <!-- Magnific Popup
+        =====================================-->
+        <script src="assets\js\magnific-popup\jquery.magnific-popup.min.js"></script>
+        <script src="assets\js\magnific-popup\magnific-popup-zoom-gallery.js"></script>
+        
+        <!-- JQuery Main
+        =====================================-->
+        <script src="assets\js\main\jquery.appear.js"></script>
+        <script src="assets\js\main\isotope.pkgd.min.js"></script>
+        <script src="assets\js\main\parallax.min.js"></script>
+        <script src="assets\js\main\jquery.countTo.js"></script>
+        <script src="assets\js\main\owl.carousel.min.js"></script>
+        <script src="assets\js\main\jquery.sticky.js"></script>
+        <script src="assets\js\main\ion.rangeSlider.min.js"></script>
+        <script src="assets\js\main\imagesloaded.pkgd.min.js"></script>
+        <script src="assets\js\main\main.js"></script>
+        <!-- Loading
+        =====================================-->
+      <script type="text/javascript">
+        (function($) {
+          $(window).load(function(){
+            $(".loading .loading-image").addClass("dissappear");
+            $(".loading .loading-text").addClass("dissappear");
+            $('.loading').delay(1000).addClass("fade-out"); 
+          });
+        })(jQuery)
+      </script> 
+    </body>
+</html>
