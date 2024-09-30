@@ -16,7 +16,7 @@ marca_url = "https://www.impomotors.com.ar/productos.html#/productos"
 driver.get(marca_url)
 
 
-time.sleep(1) 
+time.sleep(1)
 
 
 productos = []
