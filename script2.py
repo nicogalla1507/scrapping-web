@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 from bs4 import BeautifulSoup
-
+import pandas as pd
 
 
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
@@ -16,7 +16,7 @@ marca_url = "https://www.impomotors.com.ar/productos.html#/productos"
 driver.get(marca_url)
 
 
-time.sleep(1)
+
 
 
 productos = []
@@ -37,7 +37,7 @@ for enlace in enlaces_categorias:
 
 
     driver.get(categoria_url)
-    time.sleep(2) 
+    time.sleep(2)
 
     try:
         
@@ -98,3 +98,7 @@ driver.quit()
 
 for producto in productos:
     print(producto)
+
+
+datos_excel = pd.DataFrame(productos)
+datos_excel.to_excel('Datos.xlsx',index=False)
