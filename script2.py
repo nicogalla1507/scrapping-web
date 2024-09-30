@@ -33,7 +33,7 @@ for enlace in enlaces_categorias:
 
     soup = BeautifulSoup(html, 'html.parser')
 
-    productos_lista = soup.find_all('div', class_='shop-item-container-in')  # Ajusta el selector según tu HTML
+    productos_lista = soup.find_all('div', class_='shop-item-container-in')
 
 
     driver.get(categoria_url)
@@ -72,7 +72,7 @@ for enlace in enlaces_categorias:
                     print(f"Error al extraer la URL de la imagen: {e}")
 
                 try:
-                    marca_codigo = producto.find_element(By.CLASS_NAME, 'badge').text  # Cambia según tu selector
+                    marca_codigo = producto.find_element(By.CLASS_NAME, 'badge').text
                 except Exception as e:
                     marca_codigo = 'N/A'
                     print(f"Error al extraer la marca y código: {e}")
